@@ -1,5 +1,7 @@
 import './App.css';
 
+import GreenScreenGif from './FinalGreenScreen.webm';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,12 @@ function App() {
         >
           Learn React
         </a>
+
+        <video autoPlay loop className="GreenScreenGif">
+            <source src={GreenScreenGif} type="video/webm" />
+            {/* Add additional source elements for different video formats if needed */}
+          </video>
+
       </header>
     </div>
   );
