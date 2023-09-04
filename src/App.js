@@ -2,6 +2,7 @@ import './App.css';
 
 import GreenScreenGif from './FinalGreenScreen.webm';
 import GreenScreenGif2 from './output_video.webm';
+import GreenScreenGif3MOV from './GreenScreenTRIM.webm';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <video autoPlay loop className="GreenScreenGif">
             <source src={GreenScreenGif} type="video/webm" />
             <source src={GreenScreenGif2} type="video/webm" />
+            <source src={GreenScreenGif3MOV} type="video/webm" />
             {/* Add additional source elements for different video formats if needed */}
           </video>
 
