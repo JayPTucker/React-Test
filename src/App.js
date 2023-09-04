@@ -17,7 +17,7 @@ function App() {
           Learn React
         </a>
 
-        <video autoPlay loop className="GreenScreenGif">
+        <video autoPlay loop muted className="GreenScreenGif">
             <source src={GreenScreenGif} type="video/webm" />
             {/* Add additional source elements for different video formats if needed */}
           </video>
