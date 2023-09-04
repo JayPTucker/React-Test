@@ -23,7 +23,6 @@ function App() {
         <video autoPlay loop className="GreenScreenGif">
             <source src={GreenScreenGif} type="video/webm" />
             <source src={GreenScreenGif2} type="video/webm" />
-            <source src={GreenScreenGif3MOV} type="video/webm" />
             {/* Add additional source elements for different video formats if needed */}
           </video>
 

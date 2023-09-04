@@ -21,6 +21,7 @@
   transform: scaleX(-1);
   position: absolute;
   margin-top: -100px;
+  border: red 1px solid;
 }
 
 .App-header {
